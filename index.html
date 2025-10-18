@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema de biblioteca</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="atividade.js"></script>
+    <h1>Bem vindo ao sistema de biblioteca</h1>
+    <p>esta é a página inicial do sistema de biblioteca</p>
+    <h2>Livros</h2>
+    <script src="livro.js"></script>
+    <div id="livros-container">
+        <!-- Os livros serão carregados aqui dinamicamente -->
+         <table class="tabela-livros">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Ano de Publicação</th>
+                    <th>Disponibilidade</th>
+                </tr>
+            </thead>
+            <tbody id="livros-tbody">
+                <!-- Linhas de livros serão inseridas aqui -->
+            </tbody>
+            </table>
+
+    </div>
 </body>
-</html> 
+</html>
